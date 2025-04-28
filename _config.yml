@@ -1,6 +1,7 @@
 baseurl: '/trycurio'
 permalink: pretty
 title: 'Curio'
+destination: docs
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
