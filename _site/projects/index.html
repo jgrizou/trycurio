@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/images/CurioLogo-300x277.png">
+  <!-- Google Fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Self host font -->
+  <!-- <link rel="preload" href="/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin> -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  <meta name="description" content="Projects" />
+  <meta property="og:title" content="Projects"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content=""/>
+  
+  <meta property="og:description" content="Projects"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content=""/>
+  <meta name="twitter:creator" content=""/>
+
+</head>
+
+<body class='page page-projects'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="active">
+      <a href="/projects/">Projects</a>
+    </li>
+    
+    <li class="">
+      <a href="/resources/">Resources</a>
+    </li>
+    
+    <li class="">
+      <a href="/testimonials/">Testimonials</a>
+    </li>
+    
+    <li class="">
+      <a href="/buy/">Buy</a>
+    </li>
+    
+    <li class="">
+      <a href="/contact/">Contact</a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img width="250px" height="92px" alt="Curio" src="/images/logo/logo.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img width="32px" height="32px" alt="Curio" src="/images/logo/logo-mobile.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/">Home</a>
+    </li>
+    
+    <li class="active">
+      <a href="/projects/">Projects</a>
+    </li>
+    
+    <li class="">
+      <a href="/resources/">Resources</a>
+    </li>
+    
+    <li class="">
+      <a href="/testimonials/">Testimonials</a>
+    </li>
+    
+    <li class="">
+      <a href="/buy/">Buy</a>
+    </li>
+    
+    <li class="">
+      <a href="/contact/">Contact</a>
+    </li>
+    
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    <style>
+    .fixed-image {
+        height: 400px;
+        object-fit: cover; /* Ensures the image fills the height while keeping aspect ratio */
+        width: 100%; /* Ensures it fits the card width */
+    }
+    .col-md-4 {
+        background-color: #f3f3f3;
+        border: 5px solid white;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    .custom-heading {
+           // background-color: #f8d210; /* Replace with actual var(--ast-global-color-5) */
+            color: #f8d210; /* Replace with actual var(--ast-global-color-4) */
+            font-size: 2rem;
+            padding: 5px 10px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+</style>
+
+<div class="container mt-15 mb-15" style="margin-bottom: 50px;>
+    <h2 class="text-center mb-4"><b></b>Projects</b></h2>
+    <div class="row g-4">
+        
+        <!-- Joystick Controller -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/curioJoystick.gif" class="card-img-top fixed-image" alt="Joystick Controller">
+                <div class="card-body">
+                    <h3 class="card-title">Joystick Controller</h3>
+                    <p class="card-text">A simple joystick webpage to control your robot. </p>
+                    <a href="https://talhayranci.com/projects/curio-joystick/" class="btn btn-primary btn-sm">https://talhayranci.com/projects/curio-joystick/</a><br>
+                    <br><a href="https://curio-joystick.vercel.app/" class="btn btn-success btn-sm">Try It https://curio-joystick.vercel.app/</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Teleoperation -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/curioTeleoperation2.gif" class="card-img-top fixed-image" alt="Teleoperation">
+                <div class="card-body">
+                    <h3 class="card-title">Teleoperation</h3>
+                    <p class="card-text">Control your robot at a distance from another webpage while streaming the video.</p>
+                    <a href="https://talhayranci.com/projects/curio-teleoperation/" class="btn btn-primary btn-sm">https://talhayranci.com/projects/curio-teleoperation/</a>
+                    <br><br><a href="https://curio-teleoperation.vercel.app/" class="btn btn-success btn-sm">Try It https://curio-teleoperation.vercel.app/</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Line Following -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/linetracking.gif" class="card-img-top fixed-image" alt="Line Following">
+                <div class="card-body">
+                    <h3 class="card-title">Line Following</h3>
+                    <p class="card-text">The simplest self-driving car, demoed on an older version of Curio.</p>
+                    <a href="https://github.com/Kirstin813/L4-Individual-Project/tree/main/src#follow-a-black-line" class="btn btn-primary btn-sm">https://github.com/Kirstin813/L4-Individual-Project/tree/main/src#follow-a-black-line</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Object Following -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/followobject2.gif" class="card-img-top fixed-image" alt="Object Following">
+                <div class="card-body">
+                    <h3 class="card-title">Object Following</h3>
+                    <p class="card-text">Track a red object around, demoed on an older version of Curio.</p>
+                    <a href="https://github.com/Kirstin813/L4-Individual-Project/tree/main/src#object-tracking" class="btn btn-primary btn-sm">https://github.com/Kirstin813/L4-Individual-Project/tree/main/src#object-tracking</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Voice Control -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/speech_control.gif" class="card-img-top fixed-image" alt="Voice Control">
+                <div class="card-body">
+                    <h3 class="card-title">Voice Control</h3>
+                    <p class="card-text">Give instructions to Curio by talking to it.</p>
+                    <a href="https://youtu.be/bdlzn9TVa_s?si=BjacFdQQ5bbN35PV" class="btn btn-primary btn-sm">https://youtu.be/bdlzn9TVa_s?si=BjacFdQQ5bbN35PV</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Virtual Lead -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/Curio_lead.gif" class="card-img-top fixed-image" alt="Virtual Lead">
+                <div class="card-body">
+                    <h3 class="card-title">Virtual Lead</h3>
+                    <p class="card-text">The phone is identifying the position and orientation of Curio, by moving the phone you can control Curio.</p>
+                    <a href="https://www.youtube.com/shorts/vm0vGfx4_nk" class="btn btn-primary btn-sm">https://www.youtube.com/shorts/vm0vGfx4_nk</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/followface.gif" class="card-img-top fixed-image" alt="Project 7">
+                <div class="card-body">
+                    <h3 class="card-title">Face Trakcing</h3>
+                    <p class="card-text">Description of Project 7 goes here.</p>
+                    <a href="https://youtu.be/gU-inQBeqLM" class="btn btn-primary btn-sm">https://youtu.be/gU-inQBeqLM</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/curioDriveByImage.png" class="card-img-top fixed-image" alt="Project 8">
+                <div class="card-body">
+                    <h3 class="card-title">Drive by Image</h3>
+                    <p class="card-text">Description of Project 8 goes here.</p>
+                    <a href="https://drive-by-image.vercel.app/" class="btn btn-primary btn-sm">https://drive-by-image.vercel.app/</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 9 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/python.gif" class="card-img-top fixed-image" alt="Project 9">
+                <div class="card-body">
+                    <h3 class="card-title">Python control</h3>
+                    <p class="card-text">Description of Project 9 goes here.</p>
+                    <a href="https://design-and-innovation-2023.github.io/Team9B/website/implementation.html" class="btn btn-primary btn-sm">https://design-and-innovation-2023.github.io/Team9B/website/implementation.html</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="container mt-15 mb-20">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-warning d-inline-block">CurioV2</h2>
+            <ul class="list-group mb-4">
+                <li class="list-group-item">
+                    <strong>Joystick –</strong> 
+                    <a href="https://curio-joystick-v2.vercel.app/" target="_blank">https://curio-joystick-v2.vercel.app/</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-12" style="margin-bottom: 50px; ">
+            <h2 class="text-warning d-inline-block">Curio</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>Joystick Controller –</strong> 
+                    <a href="https://curio-joystick.vercel.app/" target="_blank">https://curio-joystick.vercel.app/</a>
+                </li>
+                <li class="list-group-item">
+                    <strong>Teleoperation –</strong> 
+                    <a href="https://curio-teleoperation.vercel.app/" target="_blank">https://curio-teleoperation.vercel.app/</a>
+                </li>
+                <li class="list-group-item">
+                    <strong>Drive-by-Image –</strong> 
+                    <a href="https://drive-by-image.vercel.app/" target="_blank">https://drive-by-image.vercel.app/</a>
+                </li>
+                <li class="list-group-item">
+                    <strong>Curio Host –</strong> 
+                    <a href="https://curio-host.vercel.app/" target="_blank">https://curio-host.vercel.app/</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+  </div>
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h2 class="footer-title">Curio</h2>
+          <ul>
+            
+            
+            <li class="">
+              <a href="/">Home</a>
+            </li>
+            
+            <li class="">
+              <a href="/contact/">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  
+</body>
+</html>
